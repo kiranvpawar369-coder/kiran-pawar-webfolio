@@ -1,0 +1,32 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2D"/>
+      <stop offset="1" stop-color="#0E4F83"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#59D7FF"/>
+      <stop offset="1" stop-color="#B3F0FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+  <circle cx="210" cy="160" r="150" fill="#103C62" opacity="0.45"/>
+  <circle cx="980" cy="150" r="180" fill="#225C95" opacity="0.35"/>
+  <circle cx="1050" cy="620" r="170" fill="#0C2741" opacity="0.5"/>
+  <rect x="130" y="100" width="940" height="550" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+  <g opacity="0.9">
+    <path d="M176 420C176 336.358 240.358 272 324 272H438C521.642 272 586 336.358 586 420V500H176V420Z" fill="url(#accent)" opacity="0.2"/>
+    <rect x="190" y="300" width="350" height="190" rx="24" fill="#F8FCFF" fill-opacity="0.08"/>
+    <path d="M388 250L438 208H530L590 250V315H388V250Z" fill="#68D9FF" fill-opacity="0.3"/>
+    <circle cx="520" cy="404" r="72" fill="#68D9FF" fill-opacity="0.2"/>
+    <path d="M520 350C545.405 350 566 370.595 566 396V420H474V396C474 370.595 494.595 350 520 350Z" fill="#68D9FF"/>
+    <circle cx="520" cy="372" r="32" fill="#071A2D"/>
+  </g>
+  <g>
+    <text x="600" y="250" text-anchor="middle" fill="#EAFBFF" font-family="Arial, sans-serif" font-size="66" font-weight="700">UXSense AI</text>
+    <text x="600" y="325" text-anchor="middle" fill="#A6E7FF" font-family="Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="5">INTELLIGENT WEB ANALYSIS &amp; UX GENERATION</text>
+    <rect x="260" y="370" width="680" height="3" fill="url(#accent)" opacity="0.9"/>
+    <text x="600" y="455" text-anchor="middle" fill="#F5FBFF" font-family="Arial, sans-serif" font-size="40" font-weight="600">AI-Powered UX Insights</text>
+    <text x="600" y="515" text-anchor="middle" fill="#D7F3FF" font-family="Arial, sans-serif" font-size="26">Design recommendations • Web understanding • Smart automation</text>
+  </g>
+</svg>

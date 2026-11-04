@@ -1,0 +1,19 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" rx="24" fill="#F6F3EE"/>
+  <rect x="40" y="40" width="1120" height="740" rx="18" stroke="#152A3B" stroke-width="6"/>
+  <rect x="85" y="85" width="1030" height="650" rx="12" fill="#F9F9F7" stroke="#D4B972" stroke-width="3"/>
+  <g>
+    <text x="600" y="140" text-anchor="middle" fill="#122A42" font-family="Georgia, serif" font-size="48" font-weight="700">SYMBIOSIS SKILLS &amp; PROFESSIONAL UNIVERSITY</text>
+    <text x="600" y="185" text-anchor="middle" fill="#122A42" font-family="Georgia, serif" font-size="24" opacity="0.8">A Symbiosis Skills University, Pune</text>
+  </g>
+  <rect x="240" y="210" width="720" height="3" fill="#D4B972"/>
+  <text x="600" y="290" text-anchor="middle" fill="#2C496F" font-family="Georgia, serif" font-size="62" font-weight="700">CERTIFICATE</text>
+  <text x="600" y="358" text-anchor="middle" fill="#2F4258" font-family="Georgia, serif" font-size="34" font-style="italic">This is to certify that</text>
+  <text x="600" y="442" text-anchor="middle" fill="#1D2D3C" font-family="Georgia, serif" font-size="44" font-weight="700">Kiran Vijay Pawar</text>
+  <line x1="305" y1="470" x2="895" y2="470" stroke="#1D2D3C" stroke-width="2"/>
+  <text x="600" y="560" text-anchor="middle" fill="#2D2D2D" font-family="Georgia, serif" font-size="30">has successfully completed Certificate Program in</text>
+  <text x="600" y="612" text-anchor="middle" fill="#C83A3A" font-family="Georgia, serif" font-size="38" font-weight="700">Full Stack Java with Angular</text>
+  <text x="600" y="668" text-anchor="middle" fill="#2D2D2D" font-family="Georgia, serif" font-size="28">conducted by Symbiosis Skills &amp; Professional University’s Symbiosis Digital Academy</text>
+  <text x="600" y="720" text-anchor="middle" fill="#2D2D2D" font-family="Georgia, serif" font-size="26">under the aegis of Symbiosis Open Education Society</text>
+  <text x="600" y="820" text-anchor="middle" fill="#2D2D2D" font-family="Georgia, serif" font-size="20">PRN NO: 261117230</text>
+</svg>
