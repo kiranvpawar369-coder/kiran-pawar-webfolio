@@ -22,18 +22,8 @@ const Projects = () => {
       features: ['Admin Dashboard', 'Artisan Management', 'Product Management', 'Order Management', 'Authentication'],
       tech: ['Java', 'JSP', 'Servlets', 'MySQL'],
       image: 'https://via.placeholder.com/400x250/0047a3/ffffff?text=DigiCraft+Marketplace',
-      github: 'https://github.com/kiranvpawar',
-      demo: 'https://github.com/kiranvpawar',
-    },
-    {
-      id: 3,
-      title: 'Job Portal System',
-      description: 'A comprehensive web portal connecting recruiters and job seekers. Includes registration, login, job search functionality, application system, and separate admin & recruiter panels for management.',
-      features: ['User Registration', 'Job Search', 'Job Applications', 'Admin Panel', 'Recruiter Panel'],
-      tech: ['Java', 'JSP', 'Servlets', 'MySQL'],
-      image: 'https://via.placeholder.com/400x250/1e90ff/ffffff?text=Job+Portal',
-      github: 'https://github.com/kiranvpawar',
-      demo: 'https://github.com/kiranvpawar',
+      github: 'https://github.com/kiranvpawar369-coder/digicraft-artisan-marketplace',
+      demo: 'https://github.com/kiranvpawar369-coder/digicraft-artisan-marketplace',
     },
   ]
 
@@ -114,6 +104,5 @@ const Projects = () => {
 }
 
 export default Projects
-
 
 
