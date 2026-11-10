@@ -32,6 +32,7 @@ const Projects = () => {
       features: ['Retail Sales Analysis', 'Business Performance Insights', 'Product Trend Analysis', 'Interactive Plotly Visualizations'],
       tech: ['Python', 'Pandas', 'Streamlit', 'Plotly'],
       image: '/assets/retail-analytics.svg',
+      github: 'https://github.com/kiranvpawar369-coder/retail-sales-business-analytics',
       demo: 'https://retail-analytics-pro.streamlit.app/',
     },
   ]
@@ -117,4 +118,3 @@ const Projects = () => {
 }
 
 export default Projects
-
