@@ -18,12 +18,21 @@ const Projects = () => {
     {
       id: 2,
       title: 'DigiCraft Artisan Marketplace',
-      description: 'A role-based full-stack web application connecting artisans and buyers. This project has been pushed to GitHub and also mentioned in my updated resume.',
-      features: ['Admin Dashboard', 'Artisan Management', 'Product Management', 'Order Management', 'Authentication'],
-      tech: ['Java', 'JSP', 'Servlets', 'MySQL'],
-      image: 'https://via.placeholder.com/400x250/0047a3/ffffff?text=DigiCraft+Marketplace',
+      description: 'A web-based marketplace connecting rural artisans with buyers, with dedicated Admin, Artisan, and Buyer modules. Deployed with Docker and Apache Tomcat on Render, with TiDB Cloud integration.',
+      features: ['Admin, Artisan & Buyer Modules', 'Authentication', 'Product & Inventory Management', 'Order Processing', 'Admin Activity Tracking'],
+      tech: ['Java', 'JSP', 'Servlets', 'JDBC', 'TiDB Cloud', 'HTML', 'CSS'],
+      image: '/assets/digicraft-marketplace.svg',
       github: 'https://github.com/kiranvpawar369-coder/digicraft-artisan-marketplace',
-      demo: 'https://github.com/kiranvpawar369-coder/digicraft-artisan-marketplace',
+      demo: 'https://digicraft-artisan-marketplace.onrender.com/index.html',
+    },
+    {
+      id: 3,
+      title: 'Retail Sales & Business Performance Analytics',
+      description: 'An interactive analytics application for exploring retail sales, business performance, and product trends through visualizations and business insights.',
+      features: ['Retail Sales Analysis', 'Business Performance Insights', 'Product Trend Analysis', 'Interactive Plotly Visualizations'],
+      tech: ['Python', 'Pandas', 'Streamlit', 'Plotly'],
+      image: '/assets/retail-analytics.svg',
+      demo: 'https://retail-analytics-pro.streamlit.app/',
     },
   ]
 
@@ -51,10 +60,12 @@ const Projects = () => {
                 <img src={project.image} alt={project.title} />
                 <div className="image-overlay">
                   <div className="overlay-buttons">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="overlay-btn github-btn">
-                      <FaGithub size={20} />
-                      GitHub
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="overlay-btn github-btn">
+                        <FaGithub size={20} />
+                        GitHub
+                      </a>
+                    )}
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" className="overlay-btn demo-btn">
                       <FiExternalLink size={20} />
                       Demo
@@ -85,10 +96,12 @@ const Projects = () => {
                 </div>
 
                 <div className="project-buttons">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-btn github">
-                    <FaGithub size={18} />
-                    GitHub
-                  </a>
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-btn github">
+                      <FaGithub size={18} />
+                      GitHub
+                    </a>
+                  )}
                   <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-btn demo">
                     <FiExternalLink size={18} />
                     Live Demo
@@ -104,5 +117,4 @@ const Projects = () => {
 }
 
 export default Projects
-
 

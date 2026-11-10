@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="25" y1="12" x2="775" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102B50"/>
+      <stop offset="1" stop-color="#185C83"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="268" y1="285" x2="605" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36B8B0"/>
+      <stop offset="1" stop-color="#8AE0B6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v500H0z"/>
+  <circle cx="710" cy="68" r="130" fill="#56C8BB" fill-opacity=".11"/>
+  <circle cx="80" cy="450" r="190" fill="#9FE5C1" fill-opacity=".08"/>
+  <rect x="136" y="56" width="528" height="379" rx="22" fill="#F7FAFC"/>
+  <path d="M136 78c0-12.15 9.85-22 22-22h484c12.15 0 22 9.85 22 22v48H136V78Z" fill="#fff"/>
+  <circle cx="165" cy="95" r="6" fill="#E57B70"/>
+  <circle cx="185" cy="95" r="6" fill="#E5BC63"/>
+  <circle cx="205" cy="95" r="6" fill="#62B995"/>
+  <rect x="235" y="88" width="158" height="14" rx="7" fill="#E8EDF2"/>
+  <rect x="169" y="151" width="220" height="90" rx="13" fill="#EAF5F4"/>
+  <text x="188" y="179" fill="#718096" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">TOTAL SALES</text>
+  <text x="188" y="217" fill="#173A5E" font-family="Arial,sans-serif" font-size="31" font-weight="700">$248.6K</text>
+  <path d="m321 211 11-12 9 6 14-17" stroke="#1DAB91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="407" y="151" width="220" height="90" rx="13" fill="#F0F1FB"/>
+  <text x="426" y="179" fill="#718096" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">ORDERS</text>
+  <text x="426" y="217" fill="#173A5E" font-family="Arial,sans-serif" font-size="31" font-weight="700">1,842</text>
+  <path d="m553 209 11-12 9 6 14-17" stroke="#6876D9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="169" y="260" width="458" height="148" rx="13" fill="#fff" stroke="#E7EDF2"/>
+  <text x="189" y="286" fill="#173A5E" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sales by month</text>
+  <path d="M190 370h416M190 339h416M190 308h416" stroke="#EDF1F4" stroke-width="1"/>
+  <rect x="218" y="345" width="25" height="25" rx="4" fill="url(#bars)"/>
+  <rect x="263" y="329" width="25" height="41" rx="4" fill="url(#bars)"/>
+  <rect x="308" y="338" width="25" height="32" rx="4" fill="url(#bars)"/>
+  <rect x="353" y="313" width="25" height="57" rx="4" fill="url(#bars)"/>
+  <rect x="398" y="323" width="25" height="47" rx="4" fill="url(#bars)"/>
+  <rect x="443" y="297" width="25" height="73" rx="4" fill="url(#bars)"/>
+  <rect x="488" y="307" width="25" height="63" rx="4" fill="url(#bars)"/>
+  <rect x="533" y="283" width="25" height="87" rx="4" fill="url(#bars)"/>
+  <text x="400" y="472" fill="#F2F8FC" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">RETAIL  /  SALES ANALYTICS</text>
+</svg>

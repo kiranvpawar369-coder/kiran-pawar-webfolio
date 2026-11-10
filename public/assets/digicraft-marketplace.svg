@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="20" x2="760" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#153D35"/>
+      <stop offset="1" stop-color="#28745E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="237" y1="99" x2="583" y2="411" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#F0E7D7"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v500H0z"/>
+  <circle cx="692" cy="82" r="118" fill="#6BA98B" fill-opacity=".2"/>
+  <circle cx="89" cy="430" r="160" fill="#D6A75F" fill-opacity=".12"/>
+  <rect x="174" y="66" width="452" height="368" rx="22" fill="url(#card)"/>
+  <path d="M174 88c0-12.15 9.85-22 22-22h408c12.15 0 22 9.85 22 22v49H174V88Z" fill="#fff"/>
+  <circle cx="202" cy="101" r="6" fill="#E07B5F"/>
+  <circle cx="222" cy="101" r="6" fill="#D6A75F"/>
+  <circle cx="242" cy="101" r="6" fill="#6BA98B"/>
+  <rect x="276" y="94" width="188" height="14" rx="7" fill="#E8E3D8"/>
+  <rect x="202" y="164" width="176" height="236" rx="13" fill="#E6D0B2"/>
+  <path d="M229 249c0-33.69 27.31-61 61-61s61 27.31 61 61v17H229v-17Z" fill="#B56D45"/>
+  <path d="M238 237c5-29 26-49 52-49s47 20 52 49h-18c-5-19-17-30-34-30s-29 11-34 30h-18Z" fill="#713E2D"/>
+  <path d="M221 266h140l19 119H202l19-119Z" fill="#477A5C"/>
+  <path d="M252 267v56m78-56v56" stroke="#E9C382" stroke-width="7" stroke-linecap="round"/>
+  <rect x="401" y="170" width="180" height="18" rx="9" fill="#244B3D"/>
+  <rect x="401" y="204" width="145" height="11" rx="5.5" fill="#C5BDAE"/>
+  <rect x="401" y="227" width="164" height="11" rx="5.5" fill="#D8D1C4"/>
+  <rect x="401" y="275" width="180" height="1" fill="#D8D1C4"/>
+  <rect x="401" y="296" width="72" height="15" rx="7.5" fill="#D6A75F"/>
+  <rect x="401" y="326" width="126" height="38" rx="19" fill="#28745E"/>
+  <path d="M432 344h64" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="m397 386 7 7 13-15" stroke="#477A5C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="472" fill="#F8F3E9" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">DIGICRAFT  /  ARTISAN MARKETPLACE</text>
+</svg>
